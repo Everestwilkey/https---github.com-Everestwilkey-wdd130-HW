@@ -36,7 +36,7 @@ ol.olclass{
 div.list{
     list-style-position: inside;
     text-align: center;
-    font-weight: 400;s
+    font-weight: 400;
 }
 img{
     display: block;
@@ -47,5 +47,6 @@ img{
 footer{ 
     display: block;
     margin: 0 auto;
+    text-align: center;
 }
     
