@@ -1,0 +1,40 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: auto;
+    background-color:#737373;
+    margin: 0 auto;
+}
+section{
+    background-color: #737373;
+    margin: 0 auto;
+}
+.topphoto{
+   grid-column: 1/-1;
+   width: 100%;
+   margin: 0 auto;
+
+}
+.bottomL img{
+    grid-column: 1/1;
+    grid-row: 2;
+    border-radius: 50%;
+    margin: 0 auto;
+    
+}
+.bottomM img{
+    grid-column: 2/3;
+    grid-row: 2;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+.bottomR img{ 
+    grid-column: 3/4;
+    grid-row: 2;
+    border-radius: 50%;
+    border: 20px;
+    color: #444444;
+    margin: 0 auto;
+
+}
