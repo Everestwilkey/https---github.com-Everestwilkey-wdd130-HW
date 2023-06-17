@@ -4,6 +4,69 @@ main section img {
   box-sizing: border-box;
 }
 
+.toppic{
+  grid-column: 1/2;
+  grid-row: 1/3;
+  width: 80%;
+  border: 5px solid #bf7500;
+  border-radius: 10px;
+
+}
+img.toppic {
+  margin: auto;
+}
+.page2{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 6fr 1fr 6fr;
+  display: grid;
+  margin: 10px;
+  font-family: "Roboto Slab", serif;
+}
+#title{
+  grid-column: 2/3;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+
+#toppara{
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 20px;
+  
+}
+#subtitle {
+  text-align: center;
+  grid-row: 3/4;
+  grid-column: 1/2;
+  margin: 0;
+  padding-top: 20px;
+  font-size: 40px;
+}
+.list{
+  grid-row: 4/5;
+  grid-column: 1/2;
+  font-size: 30px;
+  padding-top: -20px;
+  margin: auto;
+}
+.secpic{
+  grid-column: 2/3;
+  grid-row: 3/5;
+  width: 80%;
+  height: 80%;
+  border: 5px solid #bf7500;
+  border-radius: 10px;
+}
+img.secpic
+{
+  margin: auto;
+}
+
+
 #content {
   margin: auto;
   width: 80%;
@@ -253,4 +316,7 @@ footer .social img {
   footer {
       margin-top: 25px;
   }
+  
+  
+
 }
