@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;400;500;600&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,200;0,400;1,100;1,200&display=swap");
+body {
+  margin: 0;
+}
+header {
+  background-color: #f2cb07;
+  color: black;
+  font-family: "Pacifico", cursive;
+  display: grid;
+  grid-template-columns: 150px auto;
+  z-index: 2;
+  border-bottom: solid black 5px;
+  padding-bottom: 10px;
+}
+#logo {
+  max-width: 200px;
+  max-height: 200px;
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.438);
+  padding-left: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  place-items: center;
+  text-decoration: none;
+}
+nav a {
+  font-family: "Press Start 2P", cursive;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #403502;
+  border: solid #403502 0.1em;
+  border-radius: 1em;
+  color: aliceblue;
+  padding: 1em;
+}
+
+.topcontent {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin: 0;
+  display: grid;
+}
+
+#topimage {
+  width: 100%;
+  grid-column: 1/5;
+  grid-row: 1/5;
+}
+#welcome-text {
+  color: white;
+  grid-column: 2/4;
+  grid-row: 2;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.418);
+  padding: 1em;
+  text-align: center;
+  border-radius: 1em;
+}
+#welcome-text h1 {
+  font-size: 2em;
+  font-family: "Roboto Mono", monospace;
+}
+#welcome-text p {
+  font-family: "M PLUS 1 Code", sans-serif;
+  padding: 1em;
+}
+.button {
+  place-items: center;
+  padding: 1em;
+}
+.shop-now {
+  background-color: #403502;
+  border: solid #403502 0.1em;
+  border-radius: 1em;
+  color: aliceblue;
+  padding: 0.75em;
+  text-decoration: none;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  font-size: 1.5em;
+}
+a:hover {
+  color: red;
+}
+
+.new-arrivles {
+  background-color: #f2cb07;
+  padding: 1em;
+  text-align: center;
+  border-radius: 1em;
+  color: white;
+  max-width: 100%;
+  padding-bottom: 1.5em;
+}
+.new-arrivles h2 {
+  font-size: 2em;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+}
+.grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  display: grid;
+  column-gap: 20px;
+}
+.t-shirt1 {
+  margin: auto 0;
+  width: 89%;
+  grid-row: 1;
+  grid-column: 1/2;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.438);
+  padding: 10px;
+  max-height: 754px;
+  background-color: #403502;
+  border-radius: 1em;
+}
+.t-shirt1 h3 {
+  font-family: "Press Start 2P", cursive;
+}
+.t-shirt1 p {
+  font-family: "M PLUS 1 Code", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+.t-shirt2 {
+  margin: auto 0;
+  width: 89%;
+  grid-row: 1;
+  max-height: 754px;
+  grid-column: 2/3;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.438);
+  padding: 10px;
+  background-color: #403502;
+  border-radius: 1em;
+}
+.t-shirt2 h3 {
+  font-family: "Press Start 2P", cursive;
+}
+.t-shirt2 p {
+  font-family: "M PLUS 1 Code", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+.t-shirt3 {
+  margin: auto 0;
+  width: 89%;
+  max-height: 754px;
+  grid-row: 1;
+  grid-column: 3/5;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.438);
+  padding: 10px;
+  background-color: #403502;
+  border-radius: 1em;
+}
+.t-shirt3 h3 {
+  font-family: "Press Start 2P", cursive;
+}
+.t-shirt3 p {
+  font-family: "M PLUS 1 Code", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+.t-shirt1 img {
+  width: 427px;
+  max-height: 533px;
+
+  border-radius: 0.5em;
+}
+.t-shirt2 img {
+  width: 427px;
+  max-height: 533px;
+
+  border-radius: 0.5em;
+}
+.t-shirt3 img {
+  width: 427px;
+  max-height: 533px;
+  border-radius: 0.5em;
+}
+.divider {
+  border-bottom: solid black 10px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+}
+footer a:hover {
+  color: red;
+}
+footer p {
+  font-size: 1.2em;
+  font-family: "Roboto Slab", serif;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
+footer {
+  padding: 25px 50px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #403502;
+  color: white;
+}
+footer .social img {
+  padding-top: 15px;
+}
+footer .social img {
+  padding-top: 15px;
+}
