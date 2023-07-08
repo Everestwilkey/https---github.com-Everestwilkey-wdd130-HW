@@ -4,6 +4,9 @@
 body {
   margin: 0;
 }
+a:hover {
+  color: red;
+}
 header {
   background-color: #f2cb07;
   color: black;
@@ -162,9 +165,6 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.about-image-center {
-  /* background: linear-gradient(to bottom, #f2cb07, black, black, #f2cb07); */
 }
 footer a {
   color: white;
