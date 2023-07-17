@@ -73,6 +73,7 @@ form {
     color: aliceblue;
     font-size: 1.2em;
     flex-basis: 30%;
+    text-align: right;
   }
   
   form input {
